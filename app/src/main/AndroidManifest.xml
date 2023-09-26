@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.metris.xposed.castenabler">
+
+    <!-- Don't declare any permission to let the app be hidden -->
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CastEnabler">
+        <activity android:name=".MainActivity" />
+
+        <activity-alias
+            android:name=".MainAlias"
+            android:exported="true"
+            android:targetActivity=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="@string/xposed_description" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+
+        <!-- LSPosed specific -->
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/module_scope" />
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        google()
+        //noinspection JcenterRepositoryObsolete
+        jcenter()
+    }
+}
+rootProject.name = "Cast Enabler"
+include ':app'

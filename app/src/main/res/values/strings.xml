@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">Cast Enabler</string>
+    <string name="url_store" translatable="false">https://play.google.com/store/apps/dev?id=5916168791200129933</string>
+
+    <string name="xposed_description">Simple module to enable cast volume control when disabled by the manufacturer.</string>
+    <string name="info_text">Cast Enabler is an app that allow you to bypass manufacturer restrictions on cast volume control.
+        \nThe purpose of the app is to only enable cast volume control when this was mistakenly disabled by the manufacturer and by no mean was meant to break any law.
+        \n
+        \nRemember that the module is only compatible with Android 12 and that this is a Beta version, if you have any problem please
+        send me a feedback through the thread by clicking the button below.
+        \n
+        \nIf you would like to support my work you can buy one of my other apps, Thank you!
+        \nIf you like instead to stop me worrying you with this you can hide the icon 😭
+    </string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_url">https://forum.xda-developers.com/t/cast-enabler-for-android-12-xposed.4394713/</string>
+    <string name="support_me">Support me!</string>
+    <string name="hide_app">Hide icon</string>
+    <string name="goodbye">Goodbye my lover…</string>
+</resources>
