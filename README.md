@@ -10,11 +10,12 @@
 </table>
 
 ## About this
-Simple module to enable cast volume control with the rocker or in the input switcher when disabled by the manufacturer.
+Simple module to enable cast volume control with the rocker or in the input switcher when disabled by the manufacturer. This work is base on the discovery by [Mishaal Rahman](https://www.esper.io/blog/android-12-cast-volume-changes-explained).
 
 The purpose of the app is to only enable cast volume control when this was mistakenly disabled by the manufacturer and by no mean was meant to break any law.
 
 Find the latest release [here](https://github.com/Massi-X/castenabler/releases/latest).
+
 
 ## Development
 Pull the main repo, make the appropriate changes, then compile it using [Android Studio](https://developer.android.com/studio). Should work out of the box.
